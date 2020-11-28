@@ -43,8 +43,10 @@ body{
 .col-md-2{
     height: 18%;
     font-size: 40px;
-    line-height: 270%;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center
+} 
 
 .col-md-3{
     height: 27%;
@@ -58,4 +60,53 @@ body{
     position: absolute;
     top:30px;
     left: calc(50% - 30px);
+    color: rgb(150, 150, 150);
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: 5px solid;
+    border-radius:30px;
+    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+}
+
+.start>.col-md-2, .start>.col-md-3{
+    color: green;
+}
+
+.start .button{
+    background-color: green;
+    border-color: green;
+
+}
+
+.good>.col-md-2, .good>.col-md-3{
+    color: rgb(241, 198, 3);
+}
+
+.good .button{
+    background-color: rgb(241, 198, 3);
+    border-color: rgb(241, 198, 3);
+}
+
+.ultima>.col-md-2, .ultima>.col-md-3{
+    color: red;
+}
+
+.ultima .button{
+    background-color: red;
+    border-color: red;
+}
+
+.vip>.col-md-2, .vip>.col-md-3{
+    color: blue;
+}
+
+.vip .button{
+    background-color: blue;
+    border-color: blue;
 }
