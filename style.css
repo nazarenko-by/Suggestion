@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(150, 150, 150);
+}
+
+.main{
+    padding: 0 25px;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-lg-1{
+    margin: 25px 0;
+}
+.col-lg-1 ul{
+    height: 600px;
+}
+
+[class*=col-md]{
+    border: 1px gainsboro solid;
+    text-align: center;
+}
+
+.col-md-1{
+    height: 9%;
+    font-size: 20px;
+    line-height: 260%;
+}
+
+.col-md-2{
+    height: 18%;
+    font-size: 40px;
+    line-height: 270%;
+}
+
+.col-md-3{
+    height: 27%;
+    font-size: 45px;
+    position: relative;
+    line-height: 300%;
+}
+
+.col-md-3 span{
+    font-size: 15px;
+    position: absolute;
+    top:30px;
+    left: calc(50% - 30px);
+}
