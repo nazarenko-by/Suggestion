@@ -125,3 +125,9 @@ body{
         padding: 10px;
     }
 }
+
+@media(min-width:1024px){
+    .col-lg-1{
+        width: 25%;
+    }
+}
