@@ -23,7 +23,7 @@ body{
 }
 
 .col-lg-1{
-    margin: 25px 0;
+    margin-top: 25px;
 }
 .col-lg-1 ul{
     height: 600px;
@@ -109,4 +109,19 @@ body{
 .vip .button{
     background-color: blue;
     border-color: blue;
+}
+
+@media(min-width:768px){
+    .row::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .col-lg-1{
+        width: calc(100% / 2 );
+        display: block;
+        float: left;
+        padding: 10px;
+    }
 }
